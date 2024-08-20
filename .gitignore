@@ -146,5 +146,6 @@ test-results/
 build/
 dist/
 
-# SQlite
+# Database files
+database/
 *.sqlite3
