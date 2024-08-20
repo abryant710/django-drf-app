@@ -77,13 +77,13 @@ WSGI_APPLICATION = "notable_django.wsgi.application"
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
 DATABASES = {
-    "default": {
-        "ENGINE": "ibm_db_django",
-        "NAME": os.getenv("DB2_DATABASE"),
-        "USER": os.getenv("DB2_USER"),
-        "PASSWORD": os.getenv("DB2_PASSWORD"),
-        "HOST": os.getenv("DB2_HOST"),
-        "PORT": os.getenv("DB2_PORT"),
+    'default': {
+        'ENGINE': 'ibm_db_django',
+        'NAME': 'db2_data',
+        'USER': 'db2inst1',
+        'PASSWORD': 'your_db2_password',
+        'HOST': 'db2server',
+        'PORT': '50000',
     }
 }
 
