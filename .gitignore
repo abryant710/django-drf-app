@@ -145,3 +145,6 @@ test-results/
 # Build results
 build/
 dist/
+
+# SQlite
+*.sqlite3
