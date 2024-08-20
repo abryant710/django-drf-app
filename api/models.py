@@ -7,4 +7,4 @@ class Note(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
-        return "%s %s" % (self.title, self.body)
+        return f"{self.title} {self.body}"
